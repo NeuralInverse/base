@@ -1,8 +1,6 @@
 <footer class="page-footer" role="group" aria-label="{{ctx.Locale.Tr "aria.footer"}}">
 	<div class="left-links" role="contentinfo" aria-label="{{ctx.Locale.Tr "aria.footer.software"}}">
-		{{if ShowFooterPoweredBy}}
-			<a target="_blank" href="https://about.gitea.com">{{ctx.Locale.Tr "powered_by" "Gitea"}}</a>
-		{{end}}
+		<span>&copy; Neural Inverse Inc. 2026</span>
 		{{if (or .ShowFooterVersion .PageIsAdmin)}}
 			<span>
 			{{ctx.Locale.Tr "version"}}:
